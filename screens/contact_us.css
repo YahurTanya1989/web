@@ -16,12 +16,39 @@ input, textarea{
 }
 
 button{
+    position: relative;
     font-size: 32px;
     border-radius: 20px;
     height: 100px;
     background-color:green;
     color: cyan;
+    transition: background-color 500ms ease-out;
 }
 body{
     background-color: honeydew;
+}
+textarea:focus{
+    border: 10px solid red;
+}
+input:focus{
+    border: 10px solid red;
+}
+button:disabled{
+    background-color: lime;
+}
+button:hover{
+background-color: hotpink;
+}
+
+button::before{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    content: '->';
+    width: 100px;
+    height: 100px;
+}
+
+html{
+    font-family: "Roboto", sans-serif;
 }
