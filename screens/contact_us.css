@@ -1,0 +1,27 @@
+.contact{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    margin: 0 auto;
+
+}
+input, textarea{
+    font-size: 16px;
+    height: 100px;
+    border-radius: 20px;
+    background-color:beige;
+    border: 5px solid black;
+}
+
+button{
+    font-size: 32px;
+    border-radius: 20px;
+    height: 100px;
+    background-color:green;
+    color: cyan;
+}
+body{
+    background-color: honeydew;
+}

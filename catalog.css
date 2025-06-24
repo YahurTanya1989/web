@@ -1,0 +1,25 @@
+.container_catalog{
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalog{
+    display: flex;
+    
+    height: 40%;
+    width: 24%;
+}
+.card{
+    display: flex;
+   
+}
+.container_catalog{
+    display: flex;
+    height: 30%;
+    width: 15%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    text-align: center;
+}
