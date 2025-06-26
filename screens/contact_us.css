@@ -32,12 +32,30 @@ textarea:focus{
 }
 input:focus{
     border: 10px solid red;
+
+    @media screen and (max-width:2560px){
+        font-size: 80px;
+       }
+       
+    @media screen and (max-width:1920px) {
+            font-size: 60px;
+        }
+    
+    @media screen and  (max-width:1024px){
+            font-size: 32px; 
+            
+        }
+    @media screen and (max-width:390px) {
+            font-size: 16px; 
 }
 button:disabled{
     background-color: lime;
 }
 button:hover{
 background-color: hotpink;
+@media sceen and (hover: none){
+    background-color: green;   
+    }
 }
 
 button::before{
@@ -51,4 +69,26 @@ button::before{
 
 html{
     font-family: "Roboto", sans-serif;
+}
+
+.title{
+    font-size: 60px;
+
+   @media screen and (max-width:2560px){
+    font-size: 80px;
+   }
+   
+   @media screen and (max-width:1920px) {
+        font-size: 60px;
+    }
+
+    @media screen and  (max-width:1024px){
+        font-size: 32px; 
+        
+    }
+    @media screen and (max-width:390px) {
+        font-size: 16px;
+        
+    }
+
 }
