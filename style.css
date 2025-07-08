@@ -1,0 +1,61 @@
+body{
+    /* background-image: url(./images/bg.jpeg); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.title_red{
+    color: red;
+    text-align:left;
+    font: size 30px;
+
+    font-weight:200;
+}
+
+.navigation {
+    color: red;
+}
+.navigation a{
+    color: inherit;
+}
+.title_violet{
+    color: blueviolet;
+    text-align: right;
+}
+.title_green{
+    color: green;
+    text-align:left;
+}
+#firstTitle{
+    color: brown;}
+
+h1{
+    color: blue !important;
+}
+
+[data-test="test-attribute"]{
+    color: blue;
+}
+.title_green{
+    color: chocolate;
+}
+#firstTitle{
+    color: coral;
+}
+ h2{
+     margin: 0;
+     background-color: red;
+     border-radius: 10px;
+ }
+.container{
+    /*Цвет фона*/ 
+    background-color: aquamarine;
+
+    padding: 10px 10px 10px 10px;
+
+    margin: 30px 20px 30px 20px; 
+    border-radius: 10px;
+    height: 500px;
+    width: 100px;
+}
+
