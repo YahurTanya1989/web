@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main site</title>
+    <link rel="stylesheet" href="../scss/main.css">
 </head>
 <body>
+    <!-- <div id="parentElement">
+        <p id="paragraph">Этот текст будет заменен</p>
+      </div> -->
+    <div id="container"  class= "quantity-control">
+       
+        <span class="quantity-value">0</span>
+       
+      </div>
     <h1>Main site</h1>
 </body>
+<script src="../js/main.js"></script>
+<!-- <script>
+    let button = document.createElement('button');
+    button.textContent = 'Кнопка из JS';
+    button.id = 'myButton';
+    button.addEventListener('click', function() {
+      alert('Кнопка нажата!');
+    });
+
+    // Добавляем кнопку вместо параграфа
+    let paragraph = document.getElementById('paragraph');
+    paragraph.parentNode.replaceChild(button, paragraph);
+  </script> -->
 </html>
